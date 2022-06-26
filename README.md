@@ -1,35 +1,34 @@
-# Atividade FIAP - Desenvolvimento de microsserviços e API
+## Atividade FIAP - Desenvolvimento de microsserviços e API
 
-## Dependências
+### Dependências :warning:
 
-Instalando as depedências:
-1 - Acesse a pasta Financeiro e rode o comando 'npm install'
-2 - Acesse a pasta Usuario e rode o comando 'npm install'
+<b>1</b> - Acesse a pasta Financeiro e rode o comando 'npm install'<br>
+<b>2</b> - Acesse a pasta Usuario e rode o comando 'npm install'<br>
 
 ---
 
-## Configuração do MongoDB
+### Configuração do MongoDB :shield:
 
-1 - Acesse a pasta Financeiro/src/config/cfg.js e altere o db_path:
+<b>1</b> - Acesse a pasta Financeiro/src/config/cfg.js e altere o db_path:<br>
 
 ```js
 "mongodb+srv://*****:*****@*****.*****.mongodb.net/*****?retryWrites=true&w=majority";
 ```
 
-para sua conexão de banco de dados.
-2 - Acesse a pasta Usuario/src/config/cfg.js e altere o db_path:
+para sua conexão de banco de dados.<br>
+<b>2</b> - Acesse a pasta Usuario/src/config/cfg.js e altere o db_path:<br>
 
 ```js
 "mongodb+srv://*****:*****@*****.*****.mongodb.net/*****?retryWrites=true&w=majority";
 ```
 
-para sua conexão de banco de dados.
+para sua conexão de banco de dados.<br>
 
 ---
 
-## Inicializando
+### Inicializando :heavy_check_mark:
 
-1 - Acesse a pasta Financeiro e rode o comando:
+<b>1</b> - Acesse a pasta Financeiro e rode o comando:<br>
 
 ```shell
 npm run dev
@@ -37,7 +36,7 @@ npm run dev
 
 Será inicializado um servidor em: [http://localhost:3001](http://localhost:3001).
 
-2 - Acesse a pasta Usuario e rode o comando:
+<b>2</b> - Acesse a pasta Usuario e rode o comando:<br>
 
 ```shell
 npm run dev
