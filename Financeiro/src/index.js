@@ -4,7 +4,7 @@ const helmet = require("helmet");
 const morgan = require("morgan");
 const mongoose = require("mongoose");
 const cfg = require("./config/cfg");
-const rotaUsuario = require("./routes/usuario");
+const rotaFinanceiro = require("./routes/financeiro");
 const cors = require("cors");
 
 //Configurações
@@ -19,9 +19,9 @@ mongoose.connect(cfg.db_path, {
   useUnifiedTopology: true,
 });
 
-app.use("/usuarios", rotaUsuario);
+app.use("/financeiro", rotaFinanceiro);
 
 // Inicialização do Servidor
-app.listen(3000, () =>
-  console.log("Server Online Usuario - http://localhost:3000")
+app.listen(3001, () =>
+  console.log("Server Online Financeiro - http://localhost:3001")
 );
