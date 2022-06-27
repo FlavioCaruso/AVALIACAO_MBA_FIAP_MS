@@ -55,19 +55,17 @@ npm run dev
 
 Será inicializado um servidor em: [http://localhost:3000](http://localhost:3000).
 
----
-
 <h2 align="center">Rotas</h2>
 
 ### Usuários :standing_person:
 
-LISTAR - [GET] [http://localhost:3000/usuarios](http://localhost:3000/usuarios) --header token
-CADASTRO - [POST] [http://localhost:3000/usuarios/cadastro](http://localhost:3000/usuarios/cadastro)
-AUTENTICAÇÃO - [POST] [http://localhost:3000/usuarios/login](http://localhost:3000/usuarios/login)
-TROCA SENHA - [POST] [http://localhost:3000/usuarios/altera-senha](http://localhost:3000/usuarios/altera-senha) --header token
+<b>LISTAR</b> - [GET] [http://localhost:3000/usuarios](http://localhost:3000/usuarios) --header token<br>
+<b>CADASTRO</b> - [POST] [http://localhost:3000/usuarios/cadastro](http://localhost:3000/usuarios/cadastro)<br>
+<b>AUTENTICAÇÃO</b> - [POST] [http://localhost:3000/usuarios/login](http://localhost:3000/usuarios/login)<br>
+<b>TROCA SENHA</b> - [POST] [http://localhost:3000/usuarios/altera-senha](http://localhost:3000/usuarios/altera-senha) --header token<br>
 
 ### Financeiro :dollar:
 
-LISTAR - [GET] [http://localhost:3001/financeiro](http://localhost:3001/financeiro) --header token
-CADASTRO - [POST] [http://localhost:3001/financeiro/cadastro](http://localhost:3001/financeiro/cadastro) --header token
-UPDATE - [PUT] [http://localhost:3001/financeiro/:id](http://localhost:3001/financeiro/:id) --header token
+<b>LISTAR</b> - [GET] [http://localhost:3001/financeiro](http://localhost:3001/financeiro) --header token<br>
+<b>CADASTRO</b> - [POST] [http://localhost:3001/financeiro/cadastro](http://localhost:3001/financeiro/cadastro) --header token<br>
+<b>UPDATE</b> - [PUT] [http://localhost:3001/financeiro/:id](http://localhost:3001/financeiro/:id) --header token<br>
