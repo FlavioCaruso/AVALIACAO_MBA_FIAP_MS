@@ -7,13 +7,13 @@
 <b>1</b> - Acesse a pasta Financeiro e rode o comando:
 
 ```shell
-"npm install"
+npm install
 ```
 
 <b>2</b> - Acesse a pasta Usuario e rode o comando:
 
 ```shell
-"npm install"
+npm install
 ```
 
 ---
